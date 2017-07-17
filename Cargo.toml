@@ -1,0 +1,11 @@
+[package]
+name = "helixexp"
+version = "0.1.0"
+authors = ["SAWADA Tadashi <cesare@mayverse.jp>"]
+
+[lib]
+
+crate-type = ["cdylib"]
+
+[dependencies]
+helix = "0.6.1"
