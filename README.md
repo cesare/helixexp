@@ -1,28 +1,34 @@
 # Helixexp
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/helixexp`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is an experiment of building a rubygem with the Rust native extension using Helix.
 
-TODO: Delete this and the text above, and describe your gem
+## Preparation
 
-## Installation
+Before building, you have to [install Rust](https://www.rust-lang.org/ja-JP/install.html).
+And you need Matz' Ruby Implementation.
 
-Add this line to your application's Gemfile:
+## Building
 
-```ruby
-gem 'helixexp'
+To build a gem,
+
+```bash
+$ bundle exec rake build
 ```
 
-And then execute:
+You will find the gem `pkg/helixexp-x.x.x.gem`
 
-    $ bundle
+To run the code,
 
-Or install it yourself as:
+```bash
+$ ./bin/console
+```
 
-    $ gem install helixexp
+and
 
-## Usage
-
-TODO: Write usage instructions here
+```ruby
+Helixexp.greet("world")
+# => prints "hello, world"
+```
 
 ## Development
 
