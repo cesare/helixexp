@@ -4,7 +4,7 @@ This is an experiment of building a rubygem with the Rust native extension using
 
 ## Preparation
 
-Before building, you have to [install Rust](https://www.rust-lang.org/ja-JP/install.html).
+Before building, you have to [install Rust](https://www.rust-lang.org/en-US/install.html).
 And you need Matz' Ruby Implementation.
 
 ## Building
