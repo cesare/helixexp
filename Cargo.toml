@@ -8,4 +8,4 @@ authors = ["SAWADA Tadashi <cesare@mayverse.jp>"]
 crate-type = ["cdylib"]
 
 [dependencies]
-helix = "0.6.1"
+helix = "0.6.3"
